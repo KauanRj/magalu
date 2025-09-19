@@ -32,7 +32,7 @@
         .tit{
             color: white;
             margin: 0;
-            font-size: 35px;
+            font-size: 30px;
             font-weight: bold;
         }
         input{
@@ -78,30 +78,26 @@
             pointer-events: none;
         }
         .cabecario {
-            background-image: url(https://topsortassets.com/asset_01k4cxhc90ejjv94j7k61wpjhs.png);
-            padding: 100px;
-            background-repeat: no-repeat;
-            justify-content: center;
-            align-items: center;
-            display: flex;
-            background-position: 250px;
-            margin-top: 300px;
-            width: 75% ;
-           
-        }
-        .sub {
-            background-image: url(https://topsortassets.com/asset_01k4dzfba4fazrzttdx8s5g0fa.png);
-            justify-content: center;
-            align-items: center;
-            display: flex;
-            background-repeat: no-repeat;
-            padding: 100px;
-            background-position: 250px;
-            margin-top: -410px;
-            border-radius: 5px;
-            
-           
-        }
+        background-image: url(https://topsortassets.com/asset_01k4cxhc90ejjv94j7k61wpjhs.png);
+        padding: 100px;
+        background-repeat: no-repeat;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        background-position: 120px;
+        margin-top: 300px;
+      }
+      .sub {
+        background-image: url(https://topsortassets.com/asset_01k4dzfba4fazrzttdx8s5g0fa.png);
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        background-repeat: no-repeat;
+        padding: 100px;
+        background-position: 120px;
+        margin-top: -410px;
+        border-radius: 5px;
+      }
         .cep{
             position: relative;
              max-width: 400s;
@@ -110,7 +106,7 @@
        
         .siti{
             color:white;
-            font-size: 23px;
+            font-size: 15px;
             background-color:rgb(42, 124, 218) ;
             border: 0;
         }
@@ -131,23 +127,68 @@
             align-items: center;
             gap: 10px;
         }
-        .ico{
-            font-size: 30px;
-            color: white;
-            display: flex;
-            flex-direction: row;
-            gap: 15px;
-            
-        }
+        
         .text{
-            font-size: 20px;
+            font-size: 15px;
             color: white;
             
         }
         .fdp{
-            gap: 10px;
-            flex-wrap: wrap;
+            font-size: 25px;
+            color: white;
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+            align-items: center;
+        
         }
+        .subtop {
+        width: 100%;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        border-top: 1px solid #e0e0e0;
+        border-bottom: 1px solid #e0e0e0;
+        padding: 10px 0;
+      }
+      .subtop-container {
+        max-width: 1200px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+      }
+      .menu-left {
+        flex-shrink: 0;
+      }
+      .menu-center {
+        display: flex;
+        gap: 25px;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-grow: 1;
+      }
+      .subtit {
+        background: none;
+        border: none;
+        font-size: 14px;
+        color: #0073ff;
+        cursor: pointer;
+        font-family: Arial, sans-serif;
+        transition: background-color 0.3s ease;
+      }
+      .subtit:hover {
+        background-color: rgb(233, 231, 231);
+        border-radius: 20px;
+        text-decoration: underline;                                                                 
+      }
+      .icone-menu {
+        font-size: 20px;
+        margin-right: 5px;
+        vertical-align: middle;
+      }
+      
     </style>
 </head>
 <body>
@@ -169,21 +210,21 @@
             <i class="fas fa-search"></i>
         </div>
         
-        <div class="ico">
         
-            <i class="far fa-heart"></i>
+       <div  class="fdp">
+        <i class="far fa-heart"></i>
             <i class="fas fa-shopping-bag"></i>
-            
-            <i class="far fa-user"></i>
-             
-        </div>
-       <div>
-            <h1 class="text">
-                Boas vindas :)
-            </h1>
-            <h1 class="text">
-                Entre ou Cadastre-se
-            </h1>
+            <i  class="far fa-user"></i>
+            <div class="merda">
+                <h1 class="text">
+                    Boas vindas :)
+                    
+                </h1>
+                <h1 class="text">
+                   
+                    Entre ou Cadastre-se
+                </h1>
+            </div>
         </div>  
             
         
@@ -217,8 +258,8 @@
 
 
     <div class="cabecario"></div>
-    <div2 class="sub"></div2>
-    
+    <div class="sub"></div>
+    <h1>rtr</h1>
 
 </body>
 </html>
