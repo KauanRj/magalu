@@ -75,6 +75,7 @@
             pointer-events: none;
         }
         .cabecario {
+<<<<<<< HEAD
             background-image: url(https://topsortassets.com/asset_01k4cxhc90ejjv94j7k61wpjhs.png);
             padding: 100px;
             background-repeat: no-repeat;
@@ -90,6 +91,28 @@
             margin-top: -510px;
            
         }
+=======
+        background-image: url(https://topsortassets.com/asset_01k4cxhc90ejjv94j7k61wpjhs.png);
+        padding: 100px;
+        background-repeat: no-repeat;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        background-position: 120px;
+        margin-top: 300px;
+      }
+      .sub {
+        background-image: url(https://topsortassets.com/asset_01k4dzfba4fazrzttdx8s5g0fa.png);
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        background-repeat: no-repeat;
+        padding: 100px;
+        background-position: 120px;
+        margin-top: -410px;
+        border-radius: 5px;
+      }
+>>>>>>> 0a4f7eab85820f16140564410fa963b062c2b1ac
         .cep{
             position: relative;
              max-width: 400s;
@@ -135,6 +158,52 @@
             gap: 10px;
             flex-wrap: wrap;
         }
+        .subtop {
+        width: 100%;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        border-top: 1px solid #e0e0e0;
+        border-bottom: 1px solid #e0e0e0;
+        padding: 10px 0;
+      }
+      .subtop-container {
+        max-width: 1200px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+      }
+      .menu-left {
+        flex-shrink: 0;
+      }
+      .menu-center {
+        display: flex;
+        gap: 25px;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-grow: 1;
+      }
+      .subtit {
+        background: none;
+        border: none;
+        font-size: 14px;
+        color: #0073ff;
+        cursor: pointer;
+        font-family: Arial, sans-serif;
+        transition: background-color 0.3s ease;
+      }
+      .subtit:hover {
+        background-color: rgb(233, 231, 231);
+        border-radius: 20px;
+        text-decoration: underline;                                                                 
+      }
+      .icone-menu {
+        font-size: 20px;
+        margin-right: 5px;
+        vertical-align: middle;
+      }
     </style>
 </head>
 <body>
@@ -181,33 +250,27 @@
 
     </div>
     <div class="subtop">
-        <h2 class="subtit">Tem no magalu</h2>
-       
-            <h2 class="subtit">Celulares ˅ </h2>
-
-
-            <h2 class="subtit">Eletrodoméstico ˅ </h2>
-
-
-            <h2 class="subtit">TV e Vídeo ˅ </h2>
-
-
-            <h2 class="subtit">Informática ˅ </h2>
-
-
-             <h2 class="subtit">Móveis ˅ </h2>
-
-
-              <h2 class="subtit">Saldão ˅</h2>  
-
-
+        <div class="subtop-container">
+            <div class="menu-left">
+                <button class="subtit"><span class="icone-menu">☰</span> Tem no magalu</button>
+            </div>
+            <div class="menu-center">
+                <button class="subtit">Ofertas do dia</button>
+                <button class="subtit">Celulares ˅</button>
+                <button class="subtit">Eletrodomésticos ˅</button>
+                <button class="subtit">TV e Vídeo ˅</button>
+                <button class="subtit">Informática ˅</button>
+                <button class="subtit">Móveis ˅</button>
+                <button class="subtit">Saldão ˅</button>
+            </div>
+        </div>
     </div>
 
 
 
 
     <div class="cabecario"></div>
-    <div2 class="sub"></div2>
+    <div class="sub"></div>
     
 
 </body>
